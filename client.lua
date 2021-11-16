@@ -45,7 +45,7 @@ function drawMarker()
         local posPlayer = GetEntityCoords(PlayerPedId())
 
      
-        DrawMarker(markerType, posPlayer.x, posPlayer.y, posPlayer.z - 1, 0, 0, 0, 0, 0, 0, curProx * 2, curProx * 2, 0.8001, 0, markerColorR, markerColorG, markerColorB, 0, 0, 0, 0)
+        DrawMarker(markerType, posPlayer.x, posPlayer.y, posPlayer.z - 1, 0, 0, 0, 0, 0, curProx * 2, curProx * 2, 0.8001, 0, markerColorR, markerColorG, markerColorB, 0, 0, 0, 0)
 
         Wait(1)
 
