@@ -12,6 +12,7 @@ local markerType = 1 -- Change to a Marker of your choice - https://docs.fivem.n
 local markerColorR = 10 -- Change Marker color here (RED)
 local markerColorG = 255 -- Change Magithrker color here (GREEN)
 local markerColorB = 255 -- Change Marker color here (BLUE)
+local markerAlpha = 0.6 -- Opacity of the Marker (0.0-1.0)
 
 local afterBurn = 5000 -- How long should the Marker be drawn after the range has been changed?
 
@@ -37,15 +38,16 @@ AddEventHandler('SaltyChat_VoiceRangeChanged', function(range)
 end)
 
 function drawMarker()
-
+    
     
     while isDrawing do
 
-      
+        
+   
         local posPlayer = GetEntityCoords(PlayerPedId())
 
      
-        DrawMarker(markerType, posPlayer.x, posPlayer.y, posPlayer.z - 1, 0, 0, 0, 0, 0, curProx * 2, curProx * 2, 0.8001, 0, markerColorR, markerColorG, markerColorB, 0, 0, 0, 0)
+        DrawMarker(markerType, posPlayer.x, posPlayer.y, posPlayer.z , 0, 0, 0, 0, 0,0, curProx * 2, curProx * 2, 0.8001, markerColorR, markerColorG, markerColorB, markerAlpha, 0, 0, 0)
 
         Wait(1)
 
