@@ -33,7 +33,9 @@ afterBurn  | How long should the Marker be drawn after the range has been change
 - [sitdown](https://github.com/EgoPvP/sitdown) - Sitting made easy!
 
 ## Support
-If you need any kind of Support, feel free to open an Issue.
+If you need any kind of Support, feel free to open an Issue or open a Ticket on our Discord Server.
+
+Please keep in mind, v10Networks (SaltyChat creator wont be able to help you with htis 3rd Party script) 
 
 Discord - https://discord.gg/qRc5Hbb
 
