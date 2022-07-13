@@ -2,6 +2,10 @@
  Display a basic Circle, visualizing your current voice range when using SaltyChat
 
 
+## Where do you find the Script?
+
+### This Script can only be Bought at our Script Store: [CLICK ME](https://shop.egorp.net/package/4668429)
+
 ## How to Install?
 1. Download the latest Release of erp_saltycircle
 2. Copy the Folder into your resources/ folder
